@@ -25,3 +25,5 @@ foreach(source_file ${MAIN_SOURCES})
     add_executable(${target_name} ${source_file})
     target_link_libraries(${target_name} common)
 endforeach()
+
+set(CMAKE_VERBOSE_MAKEFILE OFF)
